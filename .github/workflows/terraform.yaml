@@ -1,12 +1,12 @@
 name: Terraform CI/CD
 
-on:
-  pull_request:
-    branches:
-      - infra
-  push:
-    branches:
-      - infra
+# on:
+#   pull_request:
+#     branches:
+#       - infra
+#   push:
+#     branches:
+#       - infra
 
 jobs:
   terraform:
