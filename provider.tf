@@ -22,7 +22,7 @@ terraform {
   #   bucket = "backend-bucket-jh"
   #   key    = "terraform/state-test/terraform.tfstate"
   #   region = "ap-northeast-2"
-  #   dymanicdb _table = "terraform-lock"
+  #   # dymanicdb _table = "terraform-lock"
   # }
 }
 
