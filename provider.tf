@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-	  bucket         = "backend-bucket-jh"
-	  key            = "terraform/state-test/terraform.tfstate"
-	  region         = "ap-northeast-2"
-	}
+    bucket = "backend-bucket-jh"
+    key    = "terraform/state-test/terraform.tfstate"
+    region = "ap-northeast-2"
+  }
 }
 
 provider "aws" {
